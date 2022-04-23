@@ -172,13 +172,13 @@ html {
     display: flex;
     align-items: center;
     width: 321px;
-    height: 75px;
+    height: 65px;
     border-radius: 10px;
 }
 
 
 .btn:last-child{
-    margin-bottom: 8px;
+    margin-bottom: 11px;
 }
 
 /* .btn:hover{
@@ -187,11 +187,6 @@ html {
     cursor: pointer;
     
 } */
-
-.btn:focus{
-   transform: translateX(-15px); 
-   transition: all 0.3s;
-}
 
 .user-btn{
     margin-right: 26px;
@@ -240,8 +235,117 @@ th{
 }
 
 ._active-btn{
-    padding-left: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -15px;
     background: rgba(123, 211, 169, 0.3);
     border: 2px solid #7BD3A9;
     cursor: pointer;
+}
+
+._active-sos{
+    margin-right: 60px;
+}
+
+.analytics-mar{
+    margin-top: 44px;
+}
+
+._settings-mar{
+    margin-top: 64px;
+}
+
+.line-hor{
+    flex-direction: row;
+    width: 3px;
+    height: 834px;
+    background: rgba(196, 196, 196, 0.41);
+}
+
+.work-area{
+    width: 1329px;
+    height: 834px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.logo-dc{
+    width: 50%;
+    height: 75%;
+    margin: 100px auto 0px;
+    display: block;
+}
+
+
+/* tasks */
+.tasks-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line-ver{
+    display: block;
+    width: 400px;
+    height: 3px;
+    background: rgba(123, 211, 169, 0.3);
+}
+
+.tasks-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 23px 0px;
+    width: 400px;   
+    height: 834px;
+
+    
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;  
+    border-radius: 10px;
+}
+
+.event-box__date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks-item h1{
+    text-align: center;
+    font-size: 25px;
+}
+.tasks-item p{
+    text-align: center;
+}
+
+.event-box{
+    margin-top: 10px;
+    width: 350px;
+    height: 168px;  
+    background: #FAFAFA;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.event-box h3{
+    font-size: 16px;
+}
+.event-box h4{
+    font-size: 20px;
+}
+
+._invis{
+    background-color: rgba(123, 123, 131, 0);
+}
+
+._red{
+    font-size: 16px;
+    color: #FF0000;
+}
+
+._blue{
+    font-size: 20px;
+    color: #2310F4;
 }
