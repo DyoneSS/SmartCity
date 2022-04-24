@@ -37,7 +37,7 @@ html {
 
 
 /* FONTS */
-@import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,800,400);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400);
 
 /* gg */
@@ -263,6 +263,9 @@ th{
 }
 
 .work-area{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
     width: 1329px;
     height: 834px;
     background: #fff;
@@ -348,4 +351,196 @@ th{
 ._blue{
     font-size: 20px;
     color: #2310F4;
+}
+
+/* cart-project */
+
+.title{
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.info-left {
+    padding: 0 10px;
+    width: 483px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #CBC2C2;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.direction {
+}
+.sct {
+}
+.info-right {
+    padding: 0 10px;
+    font-size: 15px;
+    width: 684px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #CBC2C2;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.work-area p{
+    font-size: 25px;
+}
+
+.responsible{
+    padding: 13px 23px;
+    font-size: 20px;
+    width: 320px;
+    height: 108px;
+    border: 2px solid #CBC2C2;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.status-box{
+    
+    padding: 13px 23px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 67px;
+    border: 2px solid #CBC2C2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.status{
+    padding: 5px     5px;
+    width: 114px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.status div{
+    margin-left: 10px;
+}
+
+.iq-report{
+    margin-top: 16px;
+    width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iq{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 50px;
+    border: 2px solid #CBC2C2;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.report{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 50px;
+    border: 2px solid #CBC2C2;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.photo-video{
+    margin-top: 16px;
+    width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 50px;
+    border: 2px solid #CBC2C2;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.video{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 50px;
+    border: 2px solid #CBC2C2;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.tasks-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 28px;
+    width: 320px;
+    height: 79px;
+    background: #F7F7F7;
+    border: 0.5px solid #444343;
+    border-radius: 10px;
+    margin-top: 223px;  
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line-horz{
+    flex-direction: row;
+    width: 3px;
+    height: 677px;
+    background: rgba(196, 196, 196, 0.41);
+}
+
+.work-area{
+    padding: 20px;
+}
+
+._gray{
+    color: #505050;
+}
+
+._with-kroshka{
+    height: 797px;
 }
